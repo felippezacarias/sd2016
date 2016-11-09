@@ -1,0 +1,8 @@
+#HEAT
+
+./heat.out <timesteps> <dimensões> <salvar matriz a cada n timesteps>
+
+Para executar o heat no socket 0 GOMP_CPU_AFFINITY=0-7:2 ./heat.out 1000 500 250
+
+Para executar o heat no socket 1 GOMP_CPU_AFFINITY=1-7:2 ./heat.out 1000 500 250
+
